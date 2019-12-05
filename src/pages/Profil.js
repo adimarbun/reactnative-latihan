@@ -18,7 +18,7 @@ import {
                     <View>
                         <View style={{flexDirection:'row'}}>
                             <View style={{marginVertical:10,marginHorizontal:10,width:320,}}>
-                                <Text style={{fontWeight:'700',fontSize:20}}>PROFIL</Text>                            
+                                <Text style={{fontWeight:'700',fontSize:20}}>PROFIL SAYA</Text>                            
                             </View>
                             <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
                                 <TouchableOpacity onPress={() => this.props.navigation.navigate('Login')} style={{backgroundColor:'yellow'}}>
